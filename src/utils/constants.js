@@ -35,7 +35,7 @@ export const categories = [
 ];
 
 export const demoThumbnailUrl = 'https://images.unsplash.com/photo-1623282033815-40b05d96c903?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80';
-export const demoChannelUrl = '/channel/UCUWFraij7rdYPVc2yNwBAWQ';
+export const demoChannelUrl = '/channel/UCYbqH1_LLgfDON9TjMvRYmg';
 export const demoVideoUrl = '/video/hmJ6K4CTf4';
 export const demoChannelTitle = 'Fresh n Fit Miami';
 export const demoVideoTitle = 'Can Men & Women JUST Be Friends? (Re-Upload)';

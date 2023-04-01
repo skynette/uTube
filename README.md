@@ -3,6 +3,9 @@
 
 uTube is a web application built with React and Material UI that allows users to search and watch YouTube videos. It utilizes the YouTube API through RapidAPI to fetch search results and video information.
 
+![image](https://user-images.githubusercontent.com/29153968/229315257-9c004dc8-ae12-415e-949f-8461ef21e5b5.png)
+
+
 ## Installation
 
 To install uTube, you can either clone the GitHub repository or download the source code as a ZIP file. After downloading the source code, navigate to the root directory of the project and run the following command to install the necessary dependencies:
@@ -24,8 +27,6 @@ The uTube application allows users to:
 -   Search for YouTube videos using keywords
 -   View a list of search results
 -   Watch YouTube videos
--   Like and dislike videos
--   Add videos to a watch later list
 
 ## Contributing
 

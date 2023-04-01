@@ -28,7 +28,6 @@ a {
 .category-btn:hover {
   background-color: #FC1503 !important;
   color: white !important;
-  opacity: 1 !important;
 }
 
 .category-btn:hover span{

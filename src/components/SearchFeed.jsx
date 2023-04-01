@@ -5,7 +5,7 @@ import { fetchFromAPI } from '../utils/fetchFromAPI'
 import { useParams } from 'react-router-dom'
 
 const SearchFeed = () => {
-	const {searchTerm} = useParams()
+	const { searchTerm } = useParams()
 	const [videos, setVideos] = useState([])
 
 	useEffect(() => {
@@ -18,7 +18,10 @@ const SearchFeed = () => {
 			<Typography variant='h4' fontWeight='bold' mb={2} sx={{ color: 'white' }}>
 				Search results for <span style={{ color: '#F31503' }}>{searchTerm}</span> videos
 			</Typography>
-			<Videos videos={videos} />
+			<Box display="flex">
+				<Box sx={{ mr: { sm: '100px' } }} />
+				{<Videos videos={videos} />}
+			</Box>
 		</Box>
 	)
 }

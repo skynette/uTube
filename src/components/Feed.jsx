@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react'
-import { Box, Stack, Typography } from '@mui/material'
+import { Box, Container, Stack, Typography } from '@mui/material'
 import { Sidebar, Videos } from './'
 import { fetchFromAPI } from '../utils/fetchFromAPI'
 
@@ -14,7 +14,7 @@ const Feed = () => {
 	}, [selectedCategory])
 
 	return (
-		<Stack sx={{ flexDirection: { sx: 'column',  md: "row" } }}>
+		<Stack sx={{ flexDirection: { sx: 'column', md: "row" } }}>
 			<Box sx={{ height: { sx: 'auto', md: '92vh' }, borderRight: '1px solid #3d3d3d', px: { sx: 0, md: 2 } }}>
 				<Sidebar
 					selectedCategory={selectedCategory}
@@ -29,8 +29,9 @@ const Feed = () => {
 				<Typography variant='h4' fontWeight='bold' mb={2} sx={{ color: 'white' }}>
 					{selectedCategory} <span style={{ color: '#FC1503' }}>Videos</span>
 				</Typography>
-
-				<Videos videos={videos} />
+				<Container maxWidth="xl" sx={{ padding: '20px 0' }}>
+					<Videos videos={videos} />
+				</Container>
 			</Box>
 		</Stack >
 

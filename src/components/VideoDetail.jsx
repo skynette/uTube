@@ -8,6 +8,7 @@ import { Videos, Loader } from './'
 import { fetchFromAPI } from '../utils/fetchFromAPI'
 
 const VideoDetail = () => {
+	// issues with this page
 	const [videoDetail, setVideoDetail] = useState(null)
 	const [videos, setVideos] = useState(null)
 	const { id } = useParams()

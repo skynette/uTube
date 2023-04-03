@@ -52,7 +52,7 @@ const VideoDetail = () => {
 					</Box>
 				</Box>
 				<Container maxWidth="xs" sx={{ padding: '20px 0' }}>
-					<Videos videos={videos} direction="column" />
+					<Videos videos={videos} direction="column" columns={1} />
 				</Container>
 			</Stack>
 		</Box>
